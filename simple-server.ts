@@ -1,7 +1,7 @@
 import { ApolloServer, gql } from 'apollo-server';
 import { randomUUID } from 'node:crypto';
 
-// Utilizando a abordagem Schema first approach, que é quando eu preciso mexer 
+// Utilizando a Schema first approach, que é quando eu preciso mexer 
 // no Schema e depois eu vou no código
 const typeDefs = gql`
   type User {
