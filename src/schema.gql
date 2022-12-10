@@ -3,6 +3,26 @@
 # !!!   DO NOT MODIFY THIS FILE BY YOURSELF   !!!
 # -----------------------------------------------
 
+type Appointment {
+  endsAt: DateTime!
+  startsAt: DateTime!
+}
+
+input CreateAppointmentInput {
+  customerId: String!
+  endsAt: DateTime!
+  startsAt: DateTime!
+}
+
+"""
+The javascript `Date` as string. Type represents date and time as the ISO Date string.
+"""
+scalar DateTime
+
+type Mutation {
+  createAppointment(data: CreateAppointmentInput!): Appointment!
+}
+
 type Query {
-  helloWorld: String!
+  appointments: [Appointment!]!
 }
