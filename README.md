@@ -1,7 +1,5 @@
 ## :page_with_curl: Projeto
 
-Aprendendo conceitos de GraphQL no Node!
-
 No GraphQL podemos ter duas abordagens:
 
 Schema first que é quando precisamos criar o schema primeiro para depois criar o código.
