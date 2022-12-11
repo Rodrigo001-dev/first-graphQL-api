@@ -8,13 +8,6 @@ Schema first que é quando precisamos criar o schema primeiro para depois criar 
 
 Code first que é quando nós se precupamos em codar primeiro e depois o schema é gerado a partir desse código.
 
-<LINKEDIN>
-Nesse print podemos ver o exemplo das duas abordagens:
-
-Do lado esquerdo um exemplo utilizando o schema first.
-Do lado direito um exemplo utilizando a ferramenta type-graphql que a partir do meu código gera o schema.
-</LINKEDIN>
-
 ## 🚀 Tecnologias/Bibliotecas utilizadas
 
 <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white" alt="TypeScript"> </a>
